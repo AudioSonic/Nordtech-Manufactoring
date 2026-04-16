@@ -1,0 +1,73 @@
+/*   <---- Mobile Ansicht: 320px ---->   */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color:red;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: yellow;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section {
+  padding: 24px 16px;
+}
+
+.core-competencies ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+/*   <---- Tablet Ansicht: 768px ---->   */
+
+@media (min-width: 768px) {
+    body {
+    margin: 0;
+    font-family: sans-serif;
+    color:blue;
+    }
+
+    header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: violet;
+    }
+}
+
+
+
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+
+@media (min-width: 1024px){
+    body {
+    margin: 0;
+    font-family: sans-serif;
+    color:green;
+    }
+    
+    header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: brown;
+    }
+
+}
