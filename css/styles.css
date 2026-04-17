@@ -8,13 +8,59 @@ body {
   margin: 0;
   font-family: sans-serif;
   color:red;
+  background-color: #131F2D;
 }
 
 header {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
-  background-color: yellow;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.3);
+  padding: 10px;
+}
+
+header .logo .logo-mobile {
+  display: block;
+}
+
+header .logo .logo-desktop {
+  display: none;
+}
+
+header .logo img{
+  width: 70px;
+  height: auto;
+  display: block;
+  margin: 0 9px 0px 0px;
+}
+
+header .navigation{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+header .cta{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #E2A125;
+  height: 45px;
+  width: 120px;
+  border-radius: 5px;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
 .hero {
@@ -37,18 +83,19 @@ section {
 /*   <---- Tablet Ansicht: 768px ---->   */
 
 @media (min-width: 768px) {
-    body {
-    margin: 0;
-    font-family: sans-serif;
-    color:blue;
-    }
 
-    header {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    background-color: violet;
-    }
+  header .logo .logo-mobile {
+  display: none;
+  }
+
+  header .logo .logo-desktop {
+    display: block;
+  }
+
+  header .logo img{
+    width: 200px;
+  }
+
 }
 
 
@@ -57,17 +104,38 @@ section {
 /*   <---- Desktop Ansicht: 1024px ---->   */
 
 @media (min-width: 1024px){
-    body {
-    margin: 0;
-    font-family: sans-serif;
-    color:green;
-    }
-    
-    header {
+
+  header{
+    height: 100px;
+  }
+
+  header .logo .logo-mobile {
+  display: none;
+  }
+
+  header .logo .logo-desktop {
+    display: block;
+  }
+
+  header .logo img{
+    width: 200px;
+  }
+
+  header .navigation{
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-    background-color: brown;
-    }
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  header .nav-link{
+    padding: 25px;
+    cursor: pointer;
+  }
+
+  header .cta{
+    height: 55px;
+    width: 120px;
+    margin: 0px 10px 0px 0px;
+  }
 
 }
