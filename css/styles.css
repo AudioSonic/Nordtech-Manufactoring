@@ -49,7 +49,7 @@ header .navigation{
   font-size: large;
 }
 
-header .cta{
+  .cta{
   display: flex;
   align-items: center;
   text-align: center;
@@ -64,9 +64,15 @@ header .cta{
 }
 
 .hero {
+  background-image: url("../images/hero/Background-Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+
+  font-weight:lighter;
+  color: white;
 }
 
 section {
