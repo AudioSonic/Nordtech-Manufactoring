@@ -6,9 +6,13 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   color:red;
   background-color: #131F2D;
+}
+
+section {
+  padding: 24px 16px;
 }
 
 header {
@@ -16,7 +20,7 @@ header {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(10, 10, 10, 0.3);
+  background-color: rgba(10, 10, 10, 0.1);
   padding: 10px;
 }
 
@@ -49,7 +53,7 @@ header .navigation{
   font-size: large;
 }
 
-  .cta{
+header .cta{
   display: flex;
   align-items: center;
   text-align: center;
@@ -63,8 +67,8 @@ header .navigation{
   color: white;
 }
 
-.hero {
-  background-image: url("../images/hero/Background-Image.png");
+main .hero {
+  background-image: url("../images/mainpage/Background-Image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,8 +79,70 @@ header .navigation{
   color: white;
 }
 
-section {
-  padding: 24px 16px;
+main .hero .cta{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #E2A125;
+  height: 45px;
+  width: 165px;
+  border-radius: 5px;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.about{
+  background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  color: #18181A;
+  list-style-image: none;
+}
+
+.about img{
+  width: auto;
+  max-width: 400px;
+  height: 250px;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+   gap: 10px;
+}
+
+.about-content li{
+  display: flex;
+  align-items: flex-start; /* statt center */
+  gap: 10px;
+  line-height: 1.4;
+}
+
+.about-content li::before {
+  margin-top: 3px;
+  content: "";
+  width: 16px;
+  height: 16px;
+
+  background-image: url("../images/icons/Icon_Check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  flex-shrink: 0;
+}
+
+.about-content .descText{
+  font-size: 11pt;
+}
+
+.about-content .headerText{
+  font-size: 15pt;
 }
 
 .core-competencies ul {
@@ -100,6 +166,17 @@ section {
 
   header .logo img{
     width: 200px;
+  }
+
+  main .about{
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  main .about img{
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
 
 }
