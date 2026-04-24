@@ -188,6 +188,20 @@ main .competencies-grid img{
   height: 40px;
 }
 
+main .trust-section{
+  background-color: #1F2D41;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+main .trust-section hr{
+  width: 370px;
+  color: rgba(255, 255, 255, 0.2);
+}
 
 /*   <---- Tablet Ansicht: 768px ---->   */
 
@@ -224,6 +238,15 @@ main .competencies-grid img{
   main .competencies-tile{
     height: 270px;
     width: 550px;
+  }
+
+    main .trust-section{
+    flex-direction: row;
+  }
+
+    main .trust-section hr{
+    width: 1px;
+    height: 70px;
   }
 
 }
