@@ -1,0 +1,45 @@
+name: Auto close parent issue when sub-issues are done
+
+on:
+  issues:
+    types: [closed, edited]
+
+jobs:
+  check-parent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Close parent if all sub-issues are done
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.payload.issue.number;
+
+            // Hole Issue + Sub-Issues
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber
+            });
+
+            // Prüfe ob Issue selbst Sub-Issues hat
+            const subIssues = await github.rest.issues.listSubIssues({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber
+            });
+
+            if (!subIssues.data.length) return;
+
+            // Prüfen ob alle Sub-Issues closed sind
+            for (const sub of subIssues.data) {
+              if (sub.state !== "closed") return;
+            }
+
+            // Parent schließen
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: "closed"
+            });
