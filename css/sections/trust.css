@@ -1,0 +1,33 @@
+.trust-section{
+  background-color: #1F2D41;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-section hr{
+  width: 370px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/*   <---- Tablet Ansicht: 768px ---->   */
+
+@media (min-width: 768px) {
+.trust-section{
+    flex-direction: row;
+  }
+
+.trust-section hr{
+    width: 1px;
+    height: 70px;
+  }
+}
+
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+@media (min-width: 1024px){
+
+}

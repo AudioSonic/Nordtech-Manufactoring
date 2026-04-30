@@ -1,0 +1,69 @@
+.about{
+  background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  list-style-image: none;
+}
+
+.about img{
+  width: auto;
+  max-width: 400px;
+  height: 250px;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+   gap: 10px;
+}
+
+.about-content li{
+  display: flex;
+  align-items: flex-start; /* statt center */
+  gap: 10px;
+  line-height: 1.4;
+}
+
+.about-content li::before {
+  margin-top: 3px;
+  content: "";
+  width: 16px;
+  height: 16px;
+
+  background-image: url("../images/icons/Icon_Check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  flex-shrink: 0;
+}
+
+.about-content .descText{
+  font-size: 11pt;
+}
+
+.about-content .headerText{
+  font-size: 15pt;
+}
+
+
+@media (min-width: 768px) {
+    .about{
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  .about img{
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+@media (min-width: 1024px){
+  
+}

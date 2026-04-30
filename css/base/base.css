@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #18181A;
+  background-color: #131F2D;
+}
+
+section {
+  padding: 24px 16px;
+}

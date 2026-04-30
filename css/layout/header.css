@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.1);
+  padding: 10px;
+}
+
+.logo .logo-mobile {
+  display: block;
+}
+
+.logo .logo-desktop {
+  display: none;
+}
+
+.logo img{
+  width: 70px;
+  height: auto;
+  display: block;
+  margin: 0 9px 0px 0px;
+}
+
+  /*   <---- Tablet Ansicht: 768px ---->   */
+@media (min-width: 768px) {
+  .logo .logo-mobile {
+  display: none;
+  }
+
+  .logo .logo-desktop {
+    display: block;
+  }
+
+  .logo img{
+    width: 200px;
+  }
+}
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+@media (min-width: 1024px){
+  header{
+    height: 100px;
+  }
+
+  .logo .logo-mobile {
+  display: none;
+  }
+
+  .logo .logo-desktop {
+    display: block;
+  }
+
+  .logo img{
+    width: 200px;
+  }
+}

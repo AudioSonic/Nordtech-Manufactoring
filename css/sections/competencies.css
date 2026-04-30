@@ -1,0 +1,56 @@
+.core-competencies{
+  background-color: #F1F0F5;
+}
+
+.core-competencies ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.competencies-grid{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.competencies-grid h2{
+  font-size: 12pt;
+}
+
+.competencies-grid img{
+  width: 40px;
+  height: 40px;
+}
+
+.core-competencies-header{
+  text-align: center;
+}
+
+/*   <---- Tablet Ansicht: 768px ---->   */
+@media (min-width: 768px) {
+.competencies-grid{
+    flex-direction: row;
+    gap: 15px;
+  }
+
+.competencies-tile{
+    height: 270px;
+    width: 550px;
+  }
+}
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+@media (min-width: 1024px){
+.competencies-grid{
+    flex-direction: row;
+    gap: 30px;
+  }
+
+.competencies-tile{
+    height: 220px;
+    width: 550px;
+  }
+}
