@@ -3,66 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <title>NordTech Manufacturing</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <img src="" class="logo" alt="NordTech Logo">
+        <a href="index.html" class="logo">
+            <img src="images/mainpage/NordTech_Logo_Small.png" alt="NordTech Logo" class="logo-mobile">
+            <img src="images/mainpage/NordTech_Logo.png" alt="NordTech Logo" class="logo-desktop">
         </a>
+        
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="navigation">
+                <li><a href="index.html" class="nav-link">Startseite</a></li>
+                <li><a href="services.html" class="nav-link">Leistungen</a></li>
+                <li><a href="contact.html" class="nav-link">Kontakt</a></li>
             </ul>
         </nav>
-        <a href="#" class="cta">Get a Quote</a>
+        <a href="contact.html" class="cta">Angebot anfordern</a>
     </header>
 
     <main>
-        <section class="intro">
-            <h1>Unsere Produktionsbereiche</h1>
-            <p>Von der ersten Idee ...</p>
-        </section>
-        <section class="production-areas">
-            <ul>
-                <li>CNS Fräsen</li>
-                <li>Drehen</li>
-                <li>Laserschneiden</li>
-                <li>Montage</li>
-            </ul>
-        </section>
+        <section class="services">
+            <h1>
+                Unsere Produktionsbereiche
+            </h1>
 
-        <section class="production-process">
-            <h2>Unser Produktionsprozess</h2>
-            <p>Effizient und transparent für ein perfektes Ergebnis</p>
-            <ol>
-                <li>Anfrage & Planung</li>
-                <li>Konstruktion</li>
-                <li>Fertigung</li>
-                <li>Qualitätsprüfung</li>
-                <li>Lieferung</li>
-            </ol>
+            <p>
+                Von der ersten Idee bis zum fertigen Produkt - wir bieten umfassende Fertigungslösungen für Ihre spezifischen Anforderungen.
+            </p>
+            <section class="services-cards">
+                <div class="service-card">
+                    <img src="../../images/Services/CNCFraesen.png">
+                    <div class="card-text">
+                        <h2>CNC Fräsen</h2>
+                        <p>Hochpräzises Fräsen von komplexen Bauteilen.</p>
+
+                        Materialien:
+                    </div>
+                    
+                    <ul>
+                        <li>Alumnium</li>
+                        <li>Stahl</li>
+                        <li>Kunststoff</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <img src="../../images/Services/Drehen.png">
+                    <div class="card-text">
+                        <h2>Drehen</h2>
+                        <p>Präzises Drehen für maßgeschneiderte Komponenten.</p>
+
+                        Materialien:
+                    </div>
+                    
+                    <ul>
+                        <li>Alumnium</li>
+                        <li>Stahl</li>
+                        <li>Messing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <img src="../../images/Services/Laserschneiden.png">
+                    <div class="card-text">
+                        <h2>Laserschneiden</h2>
+                        <p>Präzises Schneiden von Blechen und Rohren.</p>
+
+                        Materialien:
+                    </div>
+
+                    <ul>
+                        <li>Alumnium</li>
+                        <li>Stahl</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <img src="../../images/Services/Montage.png">
+
+                    <div class="card-text">
+                        <h2>Montage</h2>
+                        <p>Fachkundige Montage von Baugruppen und Endprodukten.</p>
+                        Materialien:
+                    </div>
+                    <ul>
+                        <li>Metalle</li>
+                        <li>Kunststoffe</li>
+                    </ul>
+                </div>
+            </section> 
         </section>
     </main>
 
-   <footer>
-    <div class="footer-grid">
-        <div class="footer-imprint">
-            
-        </div>
+    <footer>
+        <section class="footer-grid">
+            <section class="footer-imprint">
+                <section class="logo">
+                    <img src="images/mainpage/NordTech_Logo.png" alt="NordTech Logo">
+                </section>
+                <hr>
+                <section class="links">
+                    <div>
+                        <img src="..\images\icons\icon_home.png" alt="Icon von einem Haus">
+                        <a href="index.html"><h3>Home</h3></a>
+                    </div>
+                    <div>
+                        <img src="..\images\icons\icon_service.png" alt="Icon von einem Getriebe">
+                        <a href="services.html"><h3>Services</h3></a>
+                    </div>
+                    <div>
+                        <img src="..\images\icons\icon_phone.png" alt="Icon von einem Telefon">
+                        <a href="contact.html"><h3>Contact</h3></a>
+                    </div>
+                </section>
+            </section>
 
-        <div class="footer-cta">
-            
-        </div>
+            <section class="footer-cta">
+                <h2>Bereit für Ihr nächstes Projekt?</h2>
+                <h3>Kontaktieren Sie uns für ein unverbindliches Angebot!</h3>
 
-        <div class="footer-social">
-            
-        </div>
-    </div>
+                <a class="footer-cta"><b>Jetzt Anfrage stellen</b></a>
+            </section>
+        </section> 
+
+        <section class="footer-bottom">
+            <section class="address">
+                <p>Industriestraße 23, 66364 Püttlingen</p>
+                <p>info@NordTech.org - 01574/12345679</p>
+            </section>
+
+            <section class="footer-socials">
+                <p>
+                    ©Alexander Stach
+                </p>
+                <section class="socials">
+                        <a href="https://www.linkedin.com/in/stachalex/">
+                            <img src="..\images\icons\icon_linkedIn.png" alt="LinkedIn Logo">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/stachalex/">
+                            <img src="..\images\icons\icon_facebook.png" alt="Facebook Logo">
+                        </a>
+                </section>
+                
+            </section>
+        </section>
     </footer>
     <script src="js/main.js"></script>
 </body>
