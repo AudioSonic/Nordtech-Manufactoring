@@ -1,0 +1,12 @@
+.hero {
+  background-image: url("../../images/mainpage/Background-Image.png");
+  background-color: blueviolet;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; /* Höhe vom Header */
+  font-weight:lighter;
+  color: white;
+}

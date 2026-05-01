@@ -1,0 +1,14 @@
+@import url("base/base.css");
+
+@import url("layout/header.css");
+@import url("layout/footer.css");
+
+@import url("components/navigation.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/competencies.css");
+@import url("sections/trust.css");
+@import url("sections/services.css");
