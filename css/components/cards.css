@@ -29,6 +29,24 @@
   padding-left: 12px;
 }
 
+.production-proccess-cards{
+  background-image: url("../../images/services/ProzesseHintergrund.png");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.production-proccess-cards hr{
+ width: 350px;
+ height: 1px;
+}
+
 /*   <---- Tablet Ansicht: 768px ---->   */
 @media (min-width: 768px) {
 .service-card{
@@ -36,10 +54,23 @@
   max-width: 400px;
 }
 
+.production-proccess-cards hr{
+ width: 550px;
+ height: 1px;
+}
+
 }
 
 /*   <---- Desktop Ansicht: 1024px ---->   */
 @media (min-width: 1024px){
+.production-proccess-cards{
+  height: 300px;
+  flex-direction: row;
+}
 
+.production-proccess-cards hr{
+ width: 1px;
+ height: 150px;
+}
 
 }
