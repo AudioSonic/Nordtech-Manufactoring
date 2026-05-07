@@ -61,6 +61,10 @@ footer a:hover {
   justify-content: start;
 }
 
+.footer-socials p{
+  margin-top: 0;
+}
+
 .footer-socials img{
   width: 70px;
   height: 70px;
@@ -69,6 +73,30 @@ footer a:hover {
 .footer-socials .socials{
   display: flex;
   gap: 30px;
+  padding: 0;
+}
+
+.footer-cta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-cta h2{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-cta h3{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.footer-bottom{
+  line-height: 30px;
 }
 
 
@@ -93,4 +121,8 @@ footer a:hover {
     justify-content: center;
     gap: 10px;
   }
+
+  .footer-cta{
+  margin-top: 40px;
+}
 }

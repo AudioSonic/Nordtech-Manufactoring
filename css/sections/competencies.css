@@ -2,6 +2,10 @@
   background-color: #F1F0F5;
 }
 
+.core-competencies h2{
+  margin-top: 0px;
+}
+
 .core-competencies ul {
   display: flex;
   flex-direction: column;

@@ -10,6 +10,7 @@
   width: auto;
   max-width: 400px;
   height: 250px;
+  border-radius: 5px;
 }
 
 .about-content ul {
@@ -33,7 +34,7 @@
   width: 16px;
   height: 16px;
 
-  background-image: url("../images/icons/Icon_Check.png");
+  background-image: url("../../images/icons/Icon_Check.png");
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -46,6 +47,7 @@
 
 .about-content .headerText{
   font-size: 15pt;
+  margin-top: 0px;
 }
 
 

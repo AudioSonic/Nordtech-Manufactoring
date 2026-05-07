@@ -1,11 +1,29 @@
-.hero {
+.hero-wrapper{
   background-image: url("../../images/mainpage/Background-Image.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+}
+
+.hero {
   display: flex;
   flex-direction: column;
-  padding-top: 100px; /* Höhe vom Header */
   font-weight:lighter;
   color: white;
+}
+
+/*   <---- Tablet Ansicht: 768px ---->   */
+@media (min-width: 768px) {
+
+
+}
+
+/*   <---- Desktop Ansicht: 1024px ---->   */
+@media (min-width: 1024px){
+.hero-wrapper{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 }
