@@ -12,3 +12,10 @@ body {
 section {
   padding: 24px 16px;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
