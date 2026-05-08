@@ -63,6 +63,22 @@
     width: 100%;
 }
 
+.btn-contact{
+        background: linear-gradient(
+        135deg,
+        #E2A125,
+        #d99800
+    );
+
+        width: 100%;
+        height: 45px;
+
+        border-radius: 10px;
+
+        box-shadow:
+        0 4px 12px rgba(0,0,0,0.25);
+}
+
 /*   <---- Tablet Ansicht: 768px ---->   */
 @media (min-width: 768px) {
 

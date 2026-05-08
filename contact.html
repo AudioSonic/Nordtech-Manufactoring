@@ -9,96 +9,99 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html" class="logo">
-            <img src="images/mainpage/NordTech_Logo_Small.png" alt="NordTech Logo" class="logo-mobile">
-            <img src="images/mainpage/NordTech_Logo.png" alt="NordTech Logo" class="logo-desktop">
-        </a>
-        
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" class="nav-link">Startseite</a></li>
-                <li><a href="services.html" class="nav-link">Leistungen</a></li>
-                <li><a href="contact.html" class="nav-link">Kontakt</a></li>
-            </ul>
-        </nav>
-        <a href="contact.html" class="btn btn-primary">Angebot anfordern</a>
+    <div class="hero-wrapper">
+        <header>
+            <a href="index.html" class="logo">
+                <img src="images/mainpage/NordTech_Logo_Small.png" alt="NordTech Logo" class="logo-mobile">
+                <img src="images/mainpage/NordTech_Logo.png" alt="NordTech Logo" class="logo-desktop">
+            </a>
             
-    <div class="burger" id="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" class="nav-link">Startseite</a></li>
+                    <li><a href="services.html" class="nav-link">Leistungen</a></li>
+                    <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn-primary">Angebot anfordern</a>
+                
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </header>
 
-    <main>
-        <section class="hero">
-            <h1>Kontaktieren Sie uns</h1>
-            <p>Wir sind für Sie da. Senden Sie uns Ihre Anfrage!</p>
-            <a class="hero-cta"><b>Jetzt Anfrage stellen</b></a>
-        </section>
-        <section class="section-wrapper">
-            <section class="contact-info">
-                <section class="contact-address">
-                    <h2>Unsere Kontaktinfos</h2>
-                    <div class="contact-item">
-                        <img src="../../images/icons/icon_map.png">
-                        <span>Industriestraße 123</span>
-                    </div>
-                    <div class="contact-item">
-                        <div class="icon"></div>
-                        <span>66346 Püttlingen</span>
-                    </div>
-                    <div class="contact-item">
-                        <img src="../../images/icons/icon_phone.png">
-                        <span>+49 123 456 7890</span>
-                    </div>
-                    <div class="contact-item">
-                        <img src="../../images/icons/icon_mail.png">
-                        <span>info@nordtech.de</span>
-                    </div>
-                                            <hr>
-                    <h2>Öffnungszeiten</h2>
-                        <p>
-                            Montag - Freitag: 8:00 - 17:00 Uhr
+        <main>
+            <section class="hero">
+                <h1>Kontaktieren Sie uns</h1>
+                <p>Wir sind für Sie da. Senden Sie uns Ihre Anfrage!</p>
+                <a class="hero-cta"><b>Jetzt Anfrage stellen</b></a>
+            </section>
+            <section class="section-wrapper">
+                <section class="contact-info">
+                    <section class="contact-address">
+                        <h2>Unsere Kontaktinfos</h2>
+                        <div class="contact-item">
+                            <img src="../../images/icons/icon_map.png">
+                            <span>Industriestraße 123</span>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"></div>
+                            <span>66346 Püttlingen</span>
+                        </div>
+                        <div class="contact-item">
+                            <img src="../../images/icons/icon_phone.png">
+                            <span>+49 123 456 7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <img src="../../images/icons/icon_mail.png">
+                            <span>info@nordtech.de</span>
+                        </div>
+                                                <hr>
+                        <h2>Öffnungszeiten</h2>
+                            <p>
+                                Montag - Freitag: 8:00 - 17:00 Uhr
+                            </p>
+                            <img id="contact-map" src="../../images/contact/maps.png">
                         </p>
-                        <img id="contact-map" src="../../images/contact/maps.png">
-                    </p>
+                    </section>
+                </section>
+
+                <section class="contact-formular">
+                    <h2>Kontaktformular</h2>
+                    <p id="contact-text">Senden Sie uns Ihre Anfrage - wir melden uns umgehend zurück</p>
+
+                    <section class="contact-form">
+                        <p>
+                            <label for="name">Ihr Name*</label><br>
+                            <input type="text" id="name" name="name">
+                        </p>
+                        <p>
+                            <label for="email">Ihre E-Mail*</label><br>
+                            <input type="email" id="email" name="email">
+                        </p>
+                        <p>
+                            <label for="reference">Betreff auswählen*</label> <br>
+                            <select name="country" aria-placeholder="Angebot">
+                                <option value="an">Angebot</option>
+                                <option value="ru">Rückruf</option>
+                                <option value="aa">Allgemeine Anfrage</option>
+                            </select>
+
+                        </p>
+                        <p>
+                            <label for="message">Ihre Nachricht*</label> <br>
+                            <input type="text" id="message" name="message">
+                        </p>
+
+                        <button type="submit" class="btn btn-contact">Nachricht senden</button>
+                    </section>
                 </section>
             </section>
+        </main>
+    </div>
 
-            <section class="contact-formular">
-                <h2>Kontaktformular</h2>
-                <p>Senden Sie uns Ihre Anfrage - wir melden uns umgehend zurück</p>
-
-                <section class="contact-form">
-                    <p>
-                        <label for="name">Ihr Name*</label><br>
-                        <input type="text" id="name" name="name">
-                    </p>
-                    <p>
-                        <label for="email">Ihre E-Mail*</label><br>
-                        <input type="email" id="email" name="email">
-                    </p>
-                    <p>
-                        <label for="reference">Betreff auswählen*</label> <br>
-                        <select name="country" aria-placeholder="Angebot">
-                            <option value="an">Angebot</option>
-                            <option value="ru">Rückruf</option>
-                            <option value="aa">Allgemeine Anfrage</option>
-                        </select>
-
-                    </p>
-                    <p>
-                        <label for="message">Ihre Nachricht*</label> <br>
-                        <input type="text" id="message" name="message">
-                    </p>
-
-                    <button type="submit" class="hero-cta form">Nachricht senden</button>
-                </section>
-            </section>
-        </section>
-    </main>
 
     <footer>
         <section class="footer-grid">
