@@ -1,10 +1,7 @@
 .card {
     background: white;
-
     border-radius: 16px;
-
     overflow: hidden;
-
     box-shadow:
         0 10px 25px rgba(0,0,0,0.1);
 
@@ -35,8 +32,13 @@
 }
 
 .card-service {
-    max-width: 400px;
-    min-height: 500px;
+    width: 380px;
+    height: 500px;
+}
+
+.card-service img{
+    width: 380px;
+    height: 280px;
 }
 
 .card-image {
@@ -64,6 +66,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
+    border-radius: 0;
+
     color: white;
 
     display: flex;
@@ -75,6 +79,11 @@
     gap: 20px;
 
     padding: 80px 20px;
+
+background-image: url("../../images/services/ProzesseHintergrund.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top;
 }
 
 .process-section hr {
@@ -109,6 +118,24 @@
 .production-proccess-cards hr{
  width: 1px;
  height: 150px;
+}
+
+.card-service {
+    width: 400px;
+    height: 500px;
+}
+
+.card-service img{
+    width: 400px;
+    height: 280px;
+}
+
+.process-section{
+flex-direction: row;
+}
+
+.production-proccess .card:hover {
+    transform: none;
 }
 
 }
