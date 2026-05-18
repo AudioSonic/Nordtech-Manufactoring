@@ -72,30 +72,34 @@
                     <h2>Kontaktformular</h2>
                     <p id="contact-text">Senden Sie uns Ihre Anfrage - wir melden uns umgehend zurück</p>
 
-                    <section class="contact-form">
+                    <section>
                         <p>
                             <label for="name">Ihr Name*</label><br>
-                            <input type="text" id="name" name="name">
+                            <input type="text" id="contact-name" name="name">
+                            <label class="error" id="name-error"></label>
                         </p>
                         <p>
                             <label for="email">Ihre E-Mail*</label><br>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="contact-email" name="email">
+                            <label class="error" id="mail-error"></label>                        
                         </p>
                         <p>
                             <label for="reference">Betreff auswählen*</label> <br>
-                            <select name="country" aria-placeholder="Angebot">
+                            <select name="reference" aria-placeholder="Angebot" id="contact-betreff">
+                                <option value="">Bitte auswählen</option>
                                 <option value="an">Angebot</option>
                                 <option value="ru">Rückruf</option>
                                 <option value="aa">Allgemeine Anfrage</option>
                             </select>
-
+                            <label class="error" id="reference-error"></label>
                         </p>
                         <p>
                             <label for="message">Ihre Nachricht*</label> <br>
-                            <input type="text" id="message" name="message">
+                            <textarea type="text" id="contact-nachricht" name="message"></textarea>
+                            <label class="error" id="message-error"></label>
                         </p>
 
-                        <button type="submit" class="btn btn-contact">Nachricht senden</button>
+                        <button type="submit" class="btn btn-contact" id="contact-button">Nachricht senden</button>
                     </section>
                 </section>
             </section>

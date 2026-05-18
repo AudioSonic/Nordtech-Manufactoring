@@ -89,8 +89,13 @@
      border-radius: 10px;
 }
 
-#message{
+#contact-nachricht{
+    margin-top: 12px;
     height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    resize: none;
 }
 
 /*   <---- Tablet Ansicht: 768px ---->   */
