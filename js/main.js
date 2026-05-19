@@ -10,7 +10,7 @@ burger.addEventListener("click", () => {
 
 /* Kontaktformular */ 
 
-let name = document.getElementById("contact-name");
+let nameField = document.getElementById("contact-name");
 let email = document.getElementById("contact-email");
 let betreff = document.getElementById("contact-betreff");
 let nachricht = document.getElementById("contact-nachricht");
@@ -20,7 +20,7 @@ let mailChecked = false;
 let referenceChecked = false;
 let messageChecked = false;
 
-name.addEventListener("input", () => {
+nameField.addEventListener("input", () => {
     CheckName();
 });
 
@@ -42,7 +42,7 @@ button.addEventListener("click", () => {
 });
 
 function CheckName(){
-    if(name.value.trim() === ""){
+    if(nameField.value.trim() === ""){
         document.getElementById("name-error").textContent = 
         "Es muss ein Name eingetragen werden!";
         nameChecked = false;
