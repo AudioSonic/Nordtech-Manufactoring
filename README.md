@@ -1,41 +1,57 @@
 # Nordtech Manufacturing
+![Startseite](images/Readme/Startseite.gif)
 
 ## Projektübersicht
-Nordtech Manufacturing ist eine fiktive industrielle Webanwendung, die im Rahmen eines Lern- und Portfolioprojekts entwickelt wurde. Ziel ist die Präsentation eines modernen und professionell wirkenden Industrieunternehmens im Web.
+Link: https://audiosonic.github.io/Nordtech-Manufactoring/index.html  
 
-Die Anwendung dient als digitale Unternehmenspräsenz und stellt die Produkte und Dienstleistungen von Nordtech Manufacturing in den Vordergrund. Sie simuliert eine moderne Firmenwebsite eines Industrieunternehmens mit Fokus auf Leistungsdarstellung, Produktkommunikation und Markenauftritt.
+Nordtech Manufacturing ist eine fiktive industrielle Webanwendung, die im Rahmen eines Lern- und Portfolioprojekts entwickelt wurde. Ziel ist die Präsentation eines modernen Industrieunternehmens im Web.
+
+Die Anwendung simuliert eine Unternehmenswebsite mit Fokus auf Leistungsdarstellung, Produktkommunikation und Markenauftritt.
 
 ## Ziel des Projekts
 
-Das Projekt dient der praktischen Umsetzung von Frontend- und Backend-Kenntnissen im Kontext einer realistischen Unternehmensumgebung.
+Das Projekt dient der praktischen Umsetzung von Frontend- und Backend-Kenntnissen in einer realistischen Unternehmensumgebung.
 
-### Schwerpunkte:
-Strukturierte Webanwendungsarchitektur
-Umsetzung eines modernen UI/UX Designs
-Verwaltung von Produktionsdaten
-Simulation typischer Industrieprozesse
+Schwerpunkte
+- Strukturierte Webanwendungsarchitektur
+- Modernes, responsives UI/UX Design
+- Mobile-First Entwicklung
+- Simulation typischer Industriepräsentationen
 
-### Funktionen:
-- Startseite mit Unternehmensvorstellung und Markenbotschaft
-- Präsentation der Produkte und Dienstleistungen von Nordtech Manufacturing
-- Übersicht der angebotenen Industrie-Lösungen und Leistungsbereiche
-- Sektion für Unternehmenswerte und Qualitätsversprechen
-- Darstellung von Referenzprojekten oder Anwendungsbeispielen
-- Kontakt- und Anfragebereich für potenzielle Kunden
-- Modernes, responsives Webdesign für verschiedene Endgeräte
+## Seitenstruktur
+
+Die Anwendung besteht aus drei zentralen Seiten:
+
+## Startseite
+![Startseite](images/Readme/Startseite.gif)  
+Die Startseite vermittelt den ersten Eindruck des Unternehmens. Sie enthält die Markenbotschaft, eine kurze Vorstellung sowie einen Überblick über Leistungen und Werte.
+
+## Leistungen
+![Startseite](images/Readme/Leistungen.gif)
+Die Leistungsseite stellt die industriellen Kernbereiche von Nordtech Manufacturing dar. Sie visualisiert die angebotenen Services und Kompetenzen in strukturierter Form.
+
+## Kontakt
+![Startseite](images/Readme/Kontakt.gif)
+Die Kontaktseite ermöglicht die direkte Anfrage an das Unternehmen und dient als zentrale Schnittstelle für potenzielle Kunden und Geschäftspartner.
+
+## Mobile-First Ansatz  
+![Startseite](images/Readme/Startseite_mobil.gif)  
+Das gesamte Design wurde nach dem Mobile-First Prinzip entwickelt.
+Die Darstellung wurde zuerst für mobile Endgeräte konzipiert und anschließend für größere Bildschirme erweitert.
 
 ## Technischer Aufbau
-
-Das Projekt wurde mit folgenden Technologien umgesetzt:
 
 Frontend: HTML, CSS, JavaScript
 Design: modern, industriell, clean UI
 
-## Zielgruppe 
-Die Website richtet sich an potenzielle Kunden, Geschäftspartner und Interessenten im industriellen Umfeld. Sie dient der externen Unternehmensdarstellung und soll einen professionellen Eindruck von Nordtech Manufacturing als Anbieter von industriellen Produkten und Dienstleistungen vermitteln.
+## Zielgruppe
+
+Die Website richtet sich an potenzielle Kunden und Geschäftspartner im industriellen Umfeld. Sie dient der externen Unternehmensdarstellung und vermittelt einen professionellen Eindruck der Marke Nordtech Manufacturing.
 
 ## Status
-Dieses Projekt befindet sich im Rahmen eines Lernprojekts und ist nicht für den produktiven Einsatz vorgesehen.
+
+Dieses Projekt ist ein Lern- und Portfolioprojekt und nicht für den produktiven Einsatz vorgesehen.
 
 ## Hinweise
-Alle Daten sind fiktiv und dienen ausschließlich Demonstrationszwecken.
+
+Alle Inhalte sind fiktiv und dienen ausschließlich Demonstrationszwecken.
